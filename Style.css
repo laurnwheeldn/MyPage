@@ -11,6 +11,8 @@ p {
 }
 h1 {
 font-size: 70px;
+align-content: center;
+display: block;
 }
 a {
     text-decoration: double;
@@ -27,4 +29,10 @@ a:hover{
     right: 0px;
     width: 100px;
     height: 120px;
+}
+#clockUK {
+    font-size: 60px;
+    color: #4C652C;
+    display: block;
+    margin: 30px;
 }
