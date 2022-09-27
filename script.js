@@ -1,3 +1,12 @@
+function emailLauren (event) {
+  event.preventDefault();
+  emailMe.innerHTML = 'Please email me at laurenkeen@me.com';
+}
+  
+let emailMe = document.querySelector(`#emailMe`);
+emailMe.addEventListener("click", emailLauren);
+
+  
 let now = new Date();
 let clockHour = [
   `00`,
