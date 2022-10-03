@@ -1,10 +1,10 @@
-function emailLauren (event) {
+function showAboutMe (event) {
   event.preventDefault();
-  emailMe.innerHTML = 'Please email me at laurenkeen@me.com';
+  aboutMe.innerHTML = 'I am an aspiring developer - looking to change careers into the exciting, fast paced world of tech. I have loved technology and all the intresting things you can do with it all my life - but never realised how easy it was to learn to code and get involved with building and maintaining projects. I have a huge desire to learn from experienced tech businesses, with my key goal of using my skills to make a diffrence for people and to increase accessibility. I have been learning though <a href="https://www.shecodes.io">SheCodes</a> and teaching myself. I have completed two certifications with SheCodes - SheCodes Basics and SheCodes Plus. You can see my certifications and my She codes profile <a href="https://www.shecodes.io/graduates/47803-lauren-wheeldon">here.';
 }
   
-let emailMe = document.querySelector(`#emailMe`);
-emailMe.addEventListener("click", emailLauren);
+let aboutMe = document.querySelector(`#aboutMe`);
+aboutMe.addEventListener("click", showAboutMe);
 
   
 let now = new Date();

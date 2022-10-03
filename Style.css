@@ -36,12 +36,20 @@ a:hover{
     display: block;
     margin: 30px;
 }
-#emailMe {
-    background-color: #4C652C;
-    box-shadow: 10px;
+#aboutMe {
     display: block;
     margin: 0% auto;
     font-size: 40px;
-    color: whitesmoke;
-    border-radius: 14px;
+  
+}
+#aboutMe:hover {
+    cursor: pointer;
+}
+#aboutMeButton {
+    color: #4C652C;
+    box-shadow: 4px;
+    display: inline-block;
+    margin: 0% auto;
+    font-size: 40px;
+
 }
