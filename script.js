@@ -9,7 +9,8 @@ function showAboutMe (event) {
 
   function showSkills (event) {
     event.preventDefault();
-    skills.innerHTML = "hi";
+    skills.innerHTML = "I have experience using, HTML, CSS, JavaScript, Bootstrap, Github, VS Code, API's, WordPress and hosting";
+    
   }
 
 let aboutMe = document.querySelector(`#aboutMe`);
