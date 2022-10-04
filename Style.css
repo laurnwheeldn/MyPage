@@ -36,20 +36,24 @@ a:hover{
     display: block;
     margin: 30px;
 }
-#aboutMe {
-    display: block;
-    margin: 0% auto;
+#aboutMe, #currentRole, #gitHubLink, #skills {
+    background-color: cornsilk;
+    border-radius: 10px;
+    box-shadow: 4px;
+    color: black;
+    display: inline-block;
     font-size: 40px;
-  
+    margin: 0% auto;
 }
 #aboutMe:hover {
     cursor: pointer;
 }
-#aboutMeButton {
-    color: #4C652C;
-    box-shadow: 4px;
-    display: inline-block;
+#emailMe {
+    background-color:whitesmoke ;
+    border-radius: 20px;
+    box-shadow: 8px;
+    color:black;
+    display: block;
+    font-size: 58px;
     margin: 0% auto;
-    font-size: 40px;
-
 }
