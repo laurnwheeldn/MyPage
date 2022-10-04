@@ -6,12 +6,20 @@ function showAboutMe (event) {
     event.preventDefault();
     currentRole.innerHTML = 'Currently I work for a GP Practice as a medical secretaty. My most interesting part of the role has been managing the practices website and Facebook account to deliver increased communication and clarity to our stakeholders, whilst helping staff members with reduced queries. I have been trusted with approving content and keeping this up to date and making changes, however the website was not built by myself. The website is built and maintained on WordPress which I have self-taught and learnt how to handle as issues have arrisen. It gave me the desire to learn more which is when I decided to learn HTML/CSS/JS stack. Between all this, I manage patients referrals, incoming hospital information, incoming telephone/email queries, training team members, and being a key member of the practice who is happy to share ideas on improvements.'
   }
-  
+
+  function showSkills (event) {
+    event.preventDefault();
+    skills.innerHTML = "hi";
+  }
+
 let aboutMe = document.querySelector(`#aboutMe`);
 aboutMe.addEventListener("click", showAboutMe);
 
 let currentRole = document.querySelector(`#currentRole`);
 currentRole.addEventListener("click", showCurrentRole);
+
+let skills = document.querySelector("#skills");
+skills.addEventListener("click", showSkills);
 
 let now = new Date();
 let clockHour = [
